@@ -1,0 +1,96 @@
+div {
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    min-height: 40px;
+    }
+    
+    body{
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .header {
+        height: auto;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        text-align: center;
+    }
+    
+    .nav {
+        height: auto;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    }
+    
+    .main{
+        max-width: 100%;
+        height: 350px;
+    }
+    .article {
+        float: left;
+        width: 55%;
+        height: auto;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    }
+    
+    .Header {
+        height: auto;
+        width: 90%;
+        height: auto;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    }
+    
+    .section {
+        height: 90px;
+        width: 90%;
+        height: auto;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    }
+    
+    .footer {
+        height: 90px;
+        width: 90%;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    }
+    
+    .div {
+        float: right;
+        width: 34%;
+        height: 500px;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    }
+    
+    .aside {
+        float: none;
+        width: 80%;
+        height: 40%;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        font-size: 90%;
+    }
+    
+    .kontak {
+        height: auto;
+        text-align: start;
+        border-radius: 10px;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+    
+    }
+    
+    
+    
+    
+    
+    
