@@ -14,6 +14,76 @@ div {
         flex-direction: column;
         
     }
+
+    .wrapper {
+        width: 1100px;
+        margin: auto;
+        position: relative;
+    }
+
+    .logo a {
+        font-size: 50px;
+        font-weight: 800;
+        float: left;
+        font-family: courier;
+        color: #364f6b;
+    }
+    
+    .menu {
+        float: right;
+    }
+    
+    nav {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        line-height: 80px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background: #FFFFFF;
+        z-index: 1;
+        border-bottom: 1px solid #364f6b;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li a {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: center;
+        padding: 0px 16px 0px 16px;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    
+    a.tbl-biru {
+        background: #ee0b0b;
+        border-radius: 20px;
+        margin: 20px;
+        padding: 15px 20px 15px 20px;
+        color: #030303;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    
+    a.tbl-biru:hover {
+        background: #e6ff04;
+        text-decoration: none;
+    }
     
     .header {
         height: auto;
@@ -62,6 +132,12 @@ div {
         border-color: rgb(0, 0, 0);
         border-style: solid;
     }
+
+    nav {
+        width: 80%;
+        background: #000000;
+        border-radius: 50px;
+    }
     
     .div {
         float: right;
@@ -88,9 +164,4 @@ div {
         border-style: solid;
     
     }
-    
-    
-    
-    
-    
     
